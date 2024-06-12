@@ -23,7 +23,7 @@
 
         return (
           <>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col-2"></div>
             <div className="col-8"><h2>Characters</h2></div>
             <div className="col-2"></div>
@@ -49,7 +49,7 @@
 
 
 
-          <div className="row">
+          <div className="row mt-5">
         <div className="col-2"></div>
         <div className="col-8"><h2>Planets</h2></div>
         <div className="col-2"></div>
@@ -74,7 +74,7 @@
 
 
 
-      <div className="row">
+      <div className="row mt-5">
         <div className="col-2"></div>
         <div className="col-8"><h2>Vehicles</h2></div>
         <div className="col-2"></div>
