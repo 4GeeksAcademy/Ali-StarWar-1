@@ -30,7 +30,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			getVehiclesDetails: () => {},
 			getPlanets: async () => {
-				const response = await fetch("https://www.swapi.tech/api/vehicles/");
+				const response = await fetch("https://www.swapi.tech/api/planets/");
 				if(!response.ok) {
 					throw new Error(response.status, response.statusText)
 				}
