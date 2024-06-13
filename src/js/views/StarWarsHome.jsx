@@ -1,3 +1,4 @@
+    
     import React, { useContext }from "react";
     import { Context } from "../store/appContext";
 
@@ -6,6 +7,7 @@
     import PeopleCard from "../component/PeopleCard.jsx";
     import PlanetCard from "../component/PlanetCard.jsx"
     import VehicleCard from "../component/VehicleCard.jsx";
+
 
     
 
