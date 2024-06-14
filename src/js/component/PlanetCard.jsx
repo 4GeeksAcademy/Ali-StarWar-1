@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const PlanetCard = ({ uid, name, url }) => {
   const [imgUrl, setImgUrl] = useState(
@@ -13,15 +14,15 @@ const PlanetCard = ({ uid, name, url }) => {
             src={imgUrl}
             class="card-img-top"
             onError={() => {
-              setImgUrl("https://via.placeholder.com/426x426");
+              setImgUrl("https://static.wikia.nocookie.net/starwars/images/b/b0/Tatooine_TPM.png/revision/latest?cb=20131019121937");
             }}
             alt={name}
           />
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
+            <Link to={`/planets/${uid}`} className="btn btn-primary">
+            Go somewhere
+          </Link>
           </div>
         </div>
       </div>
